@@ -2,15 +2,15 @@ import { useState } from "react";
 import ExpenseList from "./components/ExpenseList";
 import ExpenseForm from "./components/ExpenseForm";
 import AuthPage from './components/AuthPage';
-function App() {
+/*function App() {
   return (
     <div>
       <AuthPage />
     </div>
   );
-}
+}*/
 
-/*export interface Expense {
+export interface Expense {
   id: number;
   title: string;
   amount: number;
@@ -33,4 +33,4 @@ const App = () => {
   );
 };
 
-export default App;*/
+export default App;
